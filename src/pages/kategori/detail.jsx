@@ -1,4 +1,3 @@
-// src/pages/ProductDetail.jsx
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 
@@ -46,7 +45,7 @@ export default function ProductDetail() {
     {
       id: 4,
       name: "Meja Kayu Jati",
-      price: "Rp 1.200.000",
+      price: "Rp 70.000 / hari",
       image: "https://jeparawood.com/wp-content/uploads/2021/03/meja-makan-mewah-kayu.jpg",
       description: "Meja makan dari kayu jati berkualitas tinggi, tahan lama dan elegan.",
       specification: [
@@ -58,7 +57,7 @@ export default function ProductDetail() {
     {
       id: 5,
       name: "Kursi Santai",
-      price: "Rp 750.000",
+      price: "Rp 50.000 / hari",
       image: "https://cdn.ruparupa.io/fit-in/400x400/filters:format(webp)/filters:quality(90)/ruparupa-com/image/upload/Products/10168526_1.jpg",
       description: "Kursi santai dengan desain ergonomis untuk kenyamanan maksimal.",
       specification: [
@@ -70,7 +69,7 @@ export default function ProductDetail() {
     {
         id: 6,
         name: "Kompor Portable",
-        price: "Rp 2.500.000",
+        price: "Rp 50.000 / hari",
         image: "https://static.retailworldvn.com/Products/Images/12226/325027/kompor-gas-portable-niko-nk-268c-violet-1.jpg",
         description: "Kompor portable dengan desain compact, mudah dibawa kemana saja.",
         specification: [
@@ -82,7 +81,7 @@ export default function ProductDetail() {
         {
         id: 7,
         name: "Rice Cooker",
-        price: "Rp 1.200.000",
+        price: "Rp 80.000 / hari",
         image: "https://image.kenken.id/s3/productimages/webp/co274051/p1469874/w600-h600/88944c0d-ffb1-4ed4-a7f8-1d24cca33c99.jpg",
         description: "Rice cooker dengan teknologi penghangat otomatis untuk nasi yang selalu hangat.",
         specification: [
@@ -94,7 +93,7 @@ export default function ProductDetail() {
         {
         id: 8,
         name: "Food Processor",
-        price: "Rp 750.000",
+        price: "Rp 80.000 / hari",
         image: "https://images-cdn.ubuy.co.id/67c06af8285c1318fd2fc138-ninja-professional-food-processor-850.jpg",
         description: "Food processor multifungsi untuk memudahkan persiapan masakan Anda.",
         specification: [
@@ -106,7 +105,7 @@ export default function ProductDetail() {
     {
         id: 9,
         name: "Setrika Boiler",
-        price: "Rp 300.000",
+        price: "Rp 50.000 / hari",
         image: "https://hakatori.com/wp-content/uploads/2020/12/IMG_1372-removebg-preview.png",
         description: "Setrika uap dengan teknologi anti lengket untuk hasil setrika yang rapi.",
         specification: [
@@ -118,7 +117,7 @@ export default function ProductDetail() {
     {
         id: 10,
         name: "Mesin Pengering",
-        price: "Rp 1.200.000",
+        price: "Rp 80.000 / hari",
         image: "https://cdn.ruparupa.io/fit-in/400x400/filters:format(webp)/filters:quality(90)/ruparupa-com/image/upload/Products/10486090_2.jpg",
         description: "Mesin pengering dengan kapasitas besar untuk mengeringkan pakaian dengan cepat.",
         specification: [
@@ -130,7 +129,7 @@ export default function ProductDetail() {
     {
         id: 11,
         name: "Mesin Cuci",
-        price: "Rp 750.000",
+        price: "Rp 50.000 / hari",
         image: "https://images.tokopedia.net/img/KRMmCm/2024/7/3/bf840a10-2ad6-4f52-8e2f-1532fa85f38c.jpg",
         description: "Mesin cuci dengan berbagai mode pencucian untuk hasil yang optimal.",
         specification: [
@@ -142,7 +141,7 @@ export default function ProductDetail() {
     {
         id: 12,
         name: "Sound System",
-        price: "Rp 600.000",
+        price: "Rp 100.000 / hari",
         image: "https://cdn.medcom.id/dynamic/content/2025/07/30/1771403/oNcSnHw5OY.jpg?w=640",
         description: "Sound system dengan kualitas suara jernih dan bass yang kuat.",
         specification: [
@@ -154,7 +153,7 @@ export default function ProductDetail() {
     {
         id: 13,
         name: "Proyektor",
-        price: "Rp 1.200.000",
+        price: "Rp 30.000",
         image: "https://mediaserver.goepson.com/ImConvServlet/imconv/ef729001e658131b144236a21754917989eb41fb/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=E01_b_No.3",
         description: "Proyektor dengan resolusi tinggi untuk presentasi dan hiburan di rumah.",
         specification: [
@@ -166,7 +165,7 @@ export default function ProductDetail() {
     {
         id: 14,
         name: "Drone",
-        price: "Rp 750.000",
+        price: "Rp 100.000 / hari",
         image: "https://img.id.my-best.com/contents/dfa30396f37dd2c1bd250e8c23d7c4c4.jpeg?ixlib=rails-4.3.1&q=70&lossless=0&w=1200&h=900&fit=crop&s=6809ed5557e643fb509d92fb2b1aeaab",
         description: "Drone dengan kamera HD untuk menangkap momen dari udara.",
         specification: [
@@ -178,7 +177,7 @@ export default function ProductDetail() {
     {
         id: 15,
         name: "Chainsaw",
-        price: "Rp 2.500.000",
+        price: "Rp 70.000",
         image: "https://indokita.co.id/wp-content/uploads/2024/01/JPEG-1920x1440_MS-MS182-EU-SR-001.jpg",
         description: "Chainsaw bertenaga tinggi untuk pekerjaan pemotongan kayu yang efisien.",
         specification: [
@@ -190,7 +189,7 @@ export default function ProductDetail() {
     {
         id: 16,
         name: "Gerinda",
-        price: "Rp 1.200.000",
+        price: "Rp 20.000",
         image: "https://tehniq.com/cdn/shop/products/KYUHODiscGrinderK107R_800x_crop_center.jpg?v=1618199841",
         description: "Gerinda multifungsi untuk berbagai keperluan pengamplasan dan pemotongan.",
         specification: [
@@ -202,7 +201,7 @@ export default function ProductDetail() {
     {
         id: 17,
         name: "Tangga Lipat",
-        price: "Rp 750.000",
+        price: "Rp 30.000",
         image: "https://cdn.ruparupa.io/fit-in/400x400/filters:format(webp)/filters:quality(90)/ruparupa-com/image/upload/Products/10542870_1.jpg",
         description: "Tangga lipat yang ringan dan mudah dibawa, cocok untuk berbagai keperluan rumah tangga.",
         specification: [

@@ -13,12 +13,12 @@ export default function Home() {
           Dari mesin cuci, kompor, hingga peralatan dapur. Semua bisa kamu sewa dengan harga terjangkau.
         </p>
         <div className="mt-6">
-          <a
-            href="/produk"
+          <Link
+            to="/produk"
             className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition inline-block"
           >
-            Lihat Produk
-          </a>
+            Jelajahi Produk
+          </Link>
         </div>
       </section>
 

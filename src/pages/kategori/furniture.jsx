@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 export default function FurniturePage() {
   const furnitureProducts = [
-    { id: 3, name: "Sofa Minimalis", price: "Rp 2.500.000", image: "https://images.tokopedia.net/blog-tokopedia-com/uploads/2020/02/1.-sectional-sofa.jpg" },
-    { id: 4, name: "Meja Kayu Jati", price: "Rp 1.200.000", image: "https://jeparawood.com/wp-content/uploads/2021/03/meja-makan-mewah-kayu.jpg" },
-    { id: 5, name: "Kursi Santai", price: "Rp 750.000", image: "https://cdn.ruparupa.io/fit-in/400x400/filters:format(webp)/filters:quality(90)/ruparupa-com/image/upload/Products/10168526_1.jpg" },
+    { id: 3, name: "Sofa Minimalis", price: "Rp 40.000 / hari", image: "https://images.tokopedia.net/blog-tokopedia-com/uploads/2020/02/1.-sectional-sofa.jpg" },
+    { id: 4, name: "Meja Kayu Jati", price: "Rp 70.000 / hari", image: "https://jeparawood.com/wp-content/uploads/2021/03/meja-makan-mewah-kayu.jpg" },
+    { id: 5, name: "Kursi Santai", price: "Rp 50.000 / hari", image: "https://cdn.ruparupa.io/fit-in/400x400/filters:format(webp)/filters:quality(90)/ruparupa-com/image/upload/Products/10168526_1.jpg" },
   ];
 
   return (
@@ -16,12 +18,12 @@ export default function FurniturePage() {
             <div className="p-4">
               <h2 className="text-xl font-semibold">{item.name}</h2>
               <p className="text-gray-600">{item.price}</p>
-              <a
-                href={`/produk/${item.id}`}
+              <Link
+                to={`/produk/${item.id}`}
                 className="mt-3 inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition"
               >
                 Lihat Produk
-              </a>
+              </Link>
             </div>
           </div>
         ))}

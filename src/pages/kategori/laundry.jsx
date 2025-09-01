@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 export default function LaundryPage() {
   const furnitureProducts = [
-    { id: 9, name: "Setrika Boiler", price: "Rp 2.500.000", image: "https://hakatori.com/wp-content/uploads/2020/12/IMG_1372-removebg-preview.png" },
-    { id: 10, name: "Mesin Pengering", price: "Rp 1.200.000", image: "https://cdn.ruparupa.io/fit-in/400x400/filters:format(webp)/filters:quality(90)/ruparupa-com/image/upload/Products/10486090_2.jpg" },
-    { id: 11, name: "Mesin Cuci", price: "Rp 750.000", image: "https://images.tokopedia.net/img/KRMmCm/2024/7/3/bf840a10-2ad6-4f52-8e2f-1532fa85f38c.jpg" },
+    { id: 9, name: "Setrika Boiler", price: "Rp 50.000 / hari", image: "https://hakatori.com/wp-content/uploads/2020/12/IMG_1372-removebg-preview.png" },
+    { id: 10, name: "Mesin Pengering", price: "Rp 80.000 / hari", image: "https://cdn.ruparupa.io/fit-in/400x400/filters:format(webp)/filters:quality(90)/ruparupa-com/image/upload/Products/10486090_2.jpg" },
+    { id: 11, name: "Mesin Cuci", price: "Rp 50.000 / hari", image: "https://images.tokopedia.net/img/KRMmCm/2024/7/3/bf840a10-2ad6-4f52-8e2f-1532fa85f38c.jpg" },
   ];
 
   return (
@@ -16,12 +18,12 @@ export default function LaundryPage() {
             <div className="p-4">
               <h2 className="text-xl font-semibold">{item.name}</h2>
               <p className="text-gray-600">{item.price}</p>
-              <a
-                href={`/produk/${item.id}`}
+              <Link
+                to={`/produk/${item.id}`}
                 className="mt-3 inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition"
               >
                 Lihat Produk
-              </a>
+              </Link>
             </div>
           </div>
         ))}
